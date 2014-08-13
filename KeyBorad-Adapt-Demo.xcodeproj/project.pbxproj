@@ -13,7 +13,6 @@
 		A255D61B199AE38E000968F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A255D619199AE38E000968F5 /* InfoPlist.strings */; };
 		A255D61D199AE38E000968F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A255D61C199AE38E000968F5 /* main.m */; };
 		A255D621199AE38E000968F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A255D620199AE38E000968F5 /* AppDelegate.m */; };
-		A255D624199AE38E000968F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A255D622199AE38E000968F5 /* Main.storyboard */; };
 		A255D627199AE38E000968F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A255D626199AE38E000968F5 /* ViewController.m */; };
 		A255D62A199AE38E000968F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A255D628199AE38E000968F5 /* ViewController.xib */; };
 		A255D62C199AE38E000968F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A255D62B199AE38E000968F5 /* Images.xcassets */; };
@@ -45,7 +44,6 @@
 		A255D61E199AE38E000968F5 /* KeyBorad-Adapt-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyBorad-Adapt-Demo-Prefix.pch"; sourceTree = "<group>"; };
 		A255D61F199AE38E000968F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A255D620199AE38E000968F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A255D623199AE38E000968F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A255D625199AE38E000968F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A255D626199AE38E000968F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A255D629199AE38E000968F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			children = (
 				A255D61F199AE38E000968F5 /* AppDelegate.h */,
 				A255D620199AE38E000968F5 /* AppDelegate.m */,
-				A255D622199AE38E000968F5 /* Main.storyboard */,
 				A255D625199AE38E000968F5 /* ViewController.h */,
 				A255D626199AE38E000968F5 /* ViewController.m */,
 				A255D628199AE38E000968F5 /* ViewController.xib */,
@@ -234,7 +231,6 @@
 				A255D61B199AE38E000968F5 /* InfoPlist.strings in Resources */,
 				A255D62C199AE38E000968F5 /* Images.xcassets in Resources */,
 				A255D62A199AE38E000968F5 /* ViewController.xib in Resources */,
-				A255D624199AE38E000968F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +280,6 @@
 				A255D61A199AE38E000968F5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A255D622199AE38E000968F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A255D623199AE38E000968F5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A255D628199AE38E000968F5 /* ViewController.xib */ = {
