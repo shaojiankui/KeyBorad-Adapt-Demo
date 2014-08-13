@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A255D611199AE38E000968F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255D610199AE38E000968F5 /* Foundation.framework */; };
+		A255D613199AE38E000968F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255D612199AE38E000968F5 /* CoreGraphics.framework */; };
+		A255D615199AE38E000968F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255D614199AE38E000968F5 /* UIKit.framework */; };
+		A255D61B199AE38E000968F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A255D619199AE38E000968F5 /* InfoPlist.strings */; };
+		A255D61D199AE38E000968F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A255D61C199AE38E000968F5 /* main.m */; };
+		A255D621199AE38E000968F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A255D620199AE38E000968F5 /* AppDelegate.m */; };
+		A255D624199AE38E000968F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A255D622199AE38E000968F5 /* Main.storyboard */; };
+		A255D627199AE38E000968F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A255D626199AE38E000968F5 /* ViewController.m */; };
+		A255D62A199AE38E000968F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A255D628199AE38E000968F5 /* ViewController.xib */; };
+		A255D62C199AE38E000968F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A255D62B199AE38E000968F5 /* Images.xcassets */; };
+		A255D633199AE38E000968F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255D632199AE38E000968F5 /* XCTest.framework */; };
+		A255D634199AE38E000968F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255D610199AE38E000968F5 /* Foundation.framework */; };
+		A255D635199AE38E000968F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255D614199AE38E000968F5 /* UIKit.framework */; };
+		A255D63D199AE38E000968F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A255D63B199AE38E000968F5 /* InfoPlist.strings */; };
+		A255D63F199AE38E000968F5 /* KeyBorad_Adapt_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A255D63E199AE38E000968F5 /* KeyBorad_Adapt_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A255D636199AE38E000968F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A255D605199AE38E000968F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A255D60C199AE38E000968F5;
+			remoteInfo = "KeyBorad-Adapt-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A255D60D199AE38E000968F5 /* KeyBorad-Adapt-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeyBorad-Adapt-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A255D610199AE38E000968F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A255D612199AE38E000968F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A255D614199AE38E000968F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A255D618199AE38E000968F5 /* KeyBorad-Adapt-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyBorad-Adapt-Demo-Info.plist"; sourceTree = "<group>"; };
+		A255D61A199AE38E000968F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A255D61C199AE38E000968F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A255D61E199AE38E000968F5 /* KeyBorad-Adapt-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyBorad-Adapt-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		A255D61F199AE38E000968F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A255D620199AE38E000968F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A255D623199AE38E000968F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A255D625199AE38E000968F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A255D626199AE38E000968F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A255D629199AE38E000968F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A255D62B199AE38E000968F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A255D631199AE38E000968F5 /* KeyBorad-Adapt-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyBorad-Adapt-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A255D632199AE38E000968F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A255D63A199AE38E000968F5 /* KeyBorad-Adapt-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyBorad-Adapt-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		A255D63C199AE38E000968F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A255D63E199AE38E000968F5 /* KeyBorad_Adapt_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBorad_Adapt_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A255D60A199AE38E000968F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255D613199AE38E000968F5 /* CoreGraphics.framework in Frameworks */,
+				A255D615199AE38E000968F5 /* UIKit.framework in Frameworks */,
+				A255D611199AE38E000968F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A255D62E199AE38E000968F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255D633199AE38E000968F5 /* XCTest.framework in Frameworks */,
+				A255D635199AE38E000968F5 /* UIKit.framework in Frameworks */,
+				A255D634199AE38E000968F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A255D604199AE38E000968F5 = {
+			isa = PBXGroup;
+			children = (
+				A255D616199AE38E000968F5 /* KeyBorad-Adapt-Demo */,
+				A255D638199AE38E000968F5 /* KeyBorad-Adapt-DemoTests */,
+				A255D60F199AE38E000968F5 /* Frameworks */,
+				A255D60E199AE38E000968F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A255D60E199AE38E000968F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A255D60D199AE38E000968F5 /* KeyBorad-Adapt-Demo.app */,
+				A255D631199AE38E000968F5 /* KeyBorad-Adapt-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A255D60F199AE38E000968F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A255D610199AE38E000968F5 /* Foundation.framework */,
+				A255D612199AE38E000968F5 /* CoreGraphics.framework */,
+				A255D614199AE38E000968F5 /* UIKit.framework */,
+				A255D632199AE38E000968F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A255D616199AE38E000968F5 /* KeyBorad-Adapt-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A255D61F199AE38E000968F5 /* AppDelegate.h */,
+				A255D620199AE38E000968F5 /* AppDelegate.m */,
+				A255D622199AE38E000968F5 /* Main.storyboard */,
+				A255D625199AE38E000968F5 /* ViewController.h */,
+				A255D626199AE38E000968F5 /* ViewController.m */,
+				A255D628199AE38E000968F5 /* ViewController.xib */,
+				A255D62B199AE38E000968F5 /* Images.xcassets */,
+				A255D617199AE38E000968F5 /* Supporting Files */,
+			);
+			path = "KeyBorad-Adapt-Demo";
+			sourceTree = "<group>";
+		};
+		A255D617199AE38E000968F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A255D618199AE38E000968F5 /* KeyBorad-Adapt-Demo-Info.plist */,
+				A255D619199AE38E000968F5 /* InfoPlist.strings */,
+				A255D61C199AE38E000968F5 /* main.m */,
+				A255D61E199AE38E000968F5 /* KeyBorad-Adapt-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A255D638199AE38E000968F5 /* KeyBorad-Adapt-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A255D63E199AE38E000968F5 /* KeyBorad_Adapt_DemoTests.m */,
+				A255D639199AE38E000968F5 /* Supporting Files */,
+			);
+			path = "KeyBorad-Adapt-DemoTests";
+			sourceTree = "<group>";
+		};
+		A255D639199AE38E000968F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A255D63A199AE38E000968F5 /* KeyBorad-Adapt-DemoTests-Info.plist */,
+				A255D63B199AE38E000968F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A255D60C199AE38E000968F5 /* KeyBorad-Adapt-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A255D642199AE38E000968F5 /* Build configuration list for PBXNativeTarget "KeyBorad-Adapt-Demo" */;
+			buildPhases = (
+				A255D609199AE38E000968F5 /* Sources */,
+				A255D60A199AE38E000968F5 /* Frameworks */,
+				A255D60B199AE38E000968F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeyBorad-Adapt-Demo";
+			productName = "KeyBorad-Adapt-Demo";
+			productReference = A255D60D199AE38E000968F5 /* KeyBorad-Adapt-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A255D630199AE38E000968F5 /* KeyBorad-Adapt-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A255D645199AE38E000968F5 /* Build configuration list for PBXNativeTarget "KeyBorad-Adapt-DemoTests" */;
+			buildPhases = (
+				A255D62D199AE38E000968F5 /* Sources */,
+				A255D62E199AE38E000968F5 /* Frameworks */,
+				A255D62F199AE38E000968F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A255D637199AE38E000968F5 /* PBXTargetDependency */,
+			);
+			name = "KeyBorad-Adapt-DemoTests";
+			productName = "KeyBorad-Adapt-DemoTests";
+			productReference = A255D631199AE38E000968F5 /* KeyBorad-Adapt-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A255D605199AE38E000968F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = www.skyfox.org;
+				TargetAttributes = {
+					A255D630199AE38E000968F5 = {
+						TestTargetID = A255D60C199AE38E000968F5;
+					};
+				};
+			};
+			buildConfigurationList = A255D608199AE38E000968F5 /* Build configuration list for PBXProject "KeyBorad-Adapt-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A255D604199AE38E000968F5;
+			productRefGroup = A255D60E199AE38E000968F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A255D60C199AE38E000968F5 /* KeyBorad-Adapt-Demo */,
+				A255D630199AE38E000968F5 /* KeyBorad-Adapt-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A255D60B199AE38E000968F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255D61B199AE38E000968F5 /* InfoPlist.strings in Resources */,
+				A255D62C199AE38E000968F5 /* Images.xcassets in Resources */,
+				A255D62A199AE38E000968F5 /* ViewController.xib in Resources */,
+				A255D624199AE38E000968F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A255D62F199AE38E000968F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255D63D199AE38E000968F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A255D609199AE38E000968F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255D627199AE38E000968F5 /* ViewController.m in Sources */,
+				A255D621199AE38E000968F5 /* AppDelegate.m in Sources */,
+				A255D61D199AE38E000968F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A255D62D199AE38E000968F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A255D63F199AE38E000968F5 /* KeyBorad_Adapt_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A255D637199AE38E000968F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A255D60C199AE38E000968F5 /* KeyBorad-Adapt-Demo */;
+			targetProxy = A255D636199AE38E000968F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A255D619199AE38E000968F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A255D61A199AE38E000968F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A255D622199AE38E000968F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A255D623199AE38E000968F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A255D628199AE38E000968F5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A255D629199AE38E000968F5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A255D63B199AE38E000968F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A255D63C199AE38E000968F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A255D640199AE38E000968F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A255D641199AE38E000968F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A255D643199AE38E000968F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyBorad-Adapt-Demo/KeyBorad-Adapt-Demo-Prefix.pch";
+				INFOPLIST_FILE = "KeyBorad-Adapt-Demo/KeyBorad-Adapt-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A255D644199AE38E000968F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyBorad-Adapt-Demo/KeyBorad-Adapt-Demo-Prefix.pch";
+				INFOPLIST_FILE = "KeyBorad-Adapt-Demo/KeyBorad-Adapt-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A255D646199AE38E000968F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyBorad-Adapt-Demo.app/KeyBorad-Adapt-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyBorad-Adapt-Demo/KeyBorad-Adapt-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KeyBorad-Adapt-DemoTests/KeyBorad-Adapt-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A255D647199AE38E000968F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyBorad-Adapt-Demo.app/KeyBorad-Adapt-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyBorad-Adapt-Demo/KeyBorad-Adapt-Demo-Prefix.pch";
+				INFOPLIST_FILE = "KeyBorad-Adapt-DemoTests/KeyBorad-Adapt-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A255D608199AE38E000968F5 /* Build configuration list for PBXProject "KeyBorad-Adapt-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A255D640199AE38E000968F5 /* Debug */,
+				A255D641199AE38E000968F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A255D642199AE38E000968F5 /* Build configuration list for PBXNativeTarget "KeyBorad-Adapt-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A255D643199AE38E000968F5 /* Debug */,
+				A255D644199AE38E000968F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A255D645199AE38E000968F5 /* Build configuration list for PBXNativeTarget "KeyBorad-Adapt-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A255D646199AE38E000968F5 /* Debug */,
+				A255D647199AE38E000968F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A255D605199AE38E000968F5 /* Project object */;
+}
